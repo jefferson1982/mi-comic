@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hospital Médico Vida</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1588776814546-4a01a82694c8?fit=crop&w=1400&q=80');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+    }
+
+    .services {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .services h2 {
+      color: #007bff;
+      margin-bottom: 1rem;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      width: 250px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hospital Médico Vida</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Servicios</a>
+      <a href="#">Especialistas</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Bienvenido al Hospital Médico Vida</h1>
+    <p>Tu salud, nuestra prioridad. Atención médica de calidad para ti y tu familia.</p>
+  </section>
+
+  <section class="services">
+    <h2>Servicios Principales</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Urgencias 24/7</h3>
+        <p>Atención médica inmediata en todo momento.</p>
+      </div>
+      <div class="card">
+        <h3>Consultas Médicas</h3>
+        <p>Consulta con especialistas en diversas áreas de la salud.</p>
+      </div>
+      <div class="card">
+        <h3>Laboratorio</h3>
+        <p>Exámenes clínicos precisos y rápidos.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Hospital Médico Vida. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
